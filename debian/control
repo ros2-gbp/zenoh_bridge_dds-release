@@ -1,0 +1,13 @@
+Source: ros-humble-zenoh-bridge-dds
+Section: misc
+Priority: optional
+Maintainer: ADLINK zenoh team <zenoh@adlink-labs.tech>
+Build-Depends: debhelper (>= 9.0.0), cargo, clang, ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: https://github.com/eclipse-zenoh/zenoh-plugin-dds
+Standards-Version: 3.9.2
+
+Package: ros-humble-zenoh-bridge-dds
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ros-workspace
+Description: Bridge between ROS2/DDS and Eclipse zenoh (https://zenoh.io).
+ It allows the integration of zenoh applications with ROS2, or the tunneling of ROS2 communications between nodes via the zenoh protocol at Internet scale.
