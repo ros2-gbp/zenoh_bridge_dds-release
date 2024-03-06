@@ -73,7 +73,7 @@ tracks:
     last_version: 0.5.0
     name: upstream
     patches: null
-    release_inc: '3'
+    release_inc: '4'
     release_repo_url: git@github.com:atolab/zenoh_bridge_dds-release.git
     release_tag: ros2_0.5.0
     release_tag_saved: :{ask}
