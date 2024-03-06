@@ -75,8 +75,7 @@ tracks:
     patches: null
     release_inc: '4'
     release_repo_url: git@github.com:atolab/zenoh_bridge_dds-release.git
-    release_tag: ros2_0.5.0
-    release_tag_saved: :{ask}
+    release_tag: :{ask}
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
