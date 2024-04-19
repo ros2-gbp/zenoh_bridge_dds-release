@@ -75,8 +75,7 @@ tracks:
     patches: null
     release_inc: '5'
     release_repo_url: null
-    release_tag: ros2_0.5.0
-    release_tag_saved: :{ask}
+    release_tag: :{ask}
     ros_distro: jazzy
     vcs_type: git
     vcs_uri: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
